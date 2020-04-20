@@ -11,3 +11,10 @@ Enabled drawing of single triangles directly, through the FIFO facility, using m
 Enabled drawing of large numbers of triangles indirectly, through the DMA facility, using driver-allocated DMA buffers that have been memory-mapped to user space
 
 ![Image1](DMA_triangles/Image1.png)
+
+## Build
+Make, insert module and compile the user program
+./reinstall.sh
+
+## Run the user code
+./a.out
